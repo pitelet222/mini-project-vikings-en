@@ -20,6 +20,7 @@ class Soldier:
     
     def receiveDamage(self, damage):
         self.health -= damage
+        
 
     
 
@@ -44,7 +45,8 @@ class Viking(Soldier):
             return f"{self.name} has received {damage} points of damage"
         else:
             return f"{self.name} has died in act of combat"
-            
+
+    
 
 # Saxon
 
@@ -53,8 +55,7 @@ class Saxon(Soldier):
     ## We define saxon's constructor, saxons has no names
     
     def __init__(self, health, strength):
-        self.health = health
-        self.strength = strength
+        super().__init__(health, strength)
         
     ## We define saxon's properties
     
@@ -65,8 +66,7 @@ class Saxon(Soldier):
         else:
             return "A Saxon has died in combat"
         
-# Davicente
-
+# 
 class War():
     
     ## The war constructor sholdn't recieve any arguments, we create the army of both sides

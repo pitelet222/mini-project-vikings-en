@@ -1,0 +1,5 @@
+- create other kinds of soldiers, as in: cabalry, archers, berserkers…
+- define a function that creates those soldiers randomly and store them in the army lsit
+- add one argument to the war that's distances / field
+- add characteristics to the soldier units such as: range, movement speed, attack speed...
+- the battles Will have a limited time to occur, like this we can add attack speed and movement speed
