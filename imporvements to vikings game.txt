@@ -2,4 +2,10 @@
 - define a function that creates those soldiers randomly and store them in the army list
 - add one argument to the war that's distances / field
 - add characteristics to the soldier units such as: range, movement speed, attack speed. crit chance...
-- improved the army creator to have bigger size and limited special units for each army
+- improved the army creator to have bigger size and limited special units for each armyS
+
+
+for the field / distances / movement funcitonalities
+- We have to set a position stat for each unit in  the army
+- we have to set on the can attack function, that if the unit is in the range of the attack of each unit, they can attack, otherwise, False
+- Somehow, we have to add too, that the units move at different speeds in the field, and that there are some that don't have to move, like the archers
